@@ -10,8 +10,6 @@ function UsersSection() {
       .then((users) => setData(users.results));
   }, []);
 
-  console.log(data);
-
   return (
     <section>
       <h2>Users Section</h2>

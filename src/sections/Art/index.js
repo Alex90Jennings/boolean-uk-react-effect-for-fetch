@@ -12,8 +12,6 @@ function ArtsSection() {
       .then((parsedData) => setData(parsedData.data));
   }, []);
 
-  console.log(data);
-
   return (
     <section>
       <h2>Arts Section</h2>
